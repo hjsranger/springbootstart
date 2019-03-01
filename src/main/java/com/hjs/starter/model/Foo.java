@@ -1,6 +1,8 @@
 package com.hjs.starter.model;
 
-public class Foo {
+import java.io.Serializable;
+
+public class Foo implements Serializable {
     private String id;
 
     private String title;

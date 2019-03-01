@@ -7,6 +7,10 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         username: hjs
         password: hjs
+    cache:
+        type: ehcache
+        ehcache:
+            config: classpath:/ehcache/ehcache.xml
 
 
 #mybatis配置
