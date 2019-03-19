@@ -11,6 +11,10 @@ spring:
         type: ehcache
         ehcache:
             config: classpath:/ehcache/ehcache.xml
+    redis:
+        host: 192.168.105.41
+        port: 6379
+        database: 0
 
 
 #mybatis配置
